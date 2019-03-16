@@ -267,7 +267,7 @@ s.waitForBoot { Pbind('degree', Pseries([0, 2, 4], 1, 8), 'dur', 0.125).play }
 		^changed
 	}
 
-	*prStopAndProposeReboot {
+	*stopAndProposeReboot {
 
 		"*** PLEASE REBOOT INTERPRETER NOW! ***".postln;
 		"*** Standalone should boot normally then. ***".postln;
